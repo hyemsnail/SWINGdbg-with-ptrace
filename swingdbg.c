@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <errno.h>
 
-void print_registers(struct user_regs_struct regs) { //레지스터 출력 함수 부분분
+void print_registers(struct user_regs_struct regs) { //레지스터 출력 함수 부분
     printf("[+] Registers:\n");
     printf("RAX: 0x%llx\n", regs.rax);
     printf("RBX: 0x%llx\n", regs.rbx);
